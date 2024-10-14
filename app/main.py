@@ -62,3 +62,4 @@ class Battleship:
                 return "Hit!"
             return "Hit!"
         return "Miss!"
+
