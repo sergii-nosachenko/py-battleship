@@ -1,7 +1,12 @@
-class Deck:
-    def __init__(self, row, column, is_alive=True):
-        pass
+from typing import List, Tuple, Dict
 
+
+class Deck:
+    def __init__(self, row: int, column: int,
+                 is_alive: bool = True) -> None:
+        self.row = row
+        self.column = column
+        self.is_alive = is_alive
 
 class Ship:
     def __init__(self, start, end, is_drowned=False):
